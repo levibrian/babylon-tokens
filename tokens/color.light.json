@@ -1,0 +1,17 @@
+{
+  "color-light": {
+    "bg-base":        { "value": "#F7F7F8", "type": "color" },
+    "bg-surface":     { "value": "#FFFFFF", "type": "color" },
+    "bg-elevated":    { "value": "#EFEFEF", "type": "color" },
+    "text-primary":   { "value": "#0A0A0A", "type": "color" },
+    "text-secondary": { "value": "#404040", "type": "color" },
+    "text-muted":     { "value": "#888888", "type": "color" },
+    "text-ghost":     { "value": "#C0C0C0", "type": "color" },
+    "border":         { "value": "rgba(0,0,0,0.08)", "type": "color" },
+    "border-strong":  { "value": "rgba(0,0,0,0.14)", "type": "color" },
+    "gain":           { "value": "#059669", "type": "color" },
+    "loss":           { "value": "#DC2626", "type": "color" },
+    "warning":        { "value": "#D97706", "type": "color" },
+    "info":           { "value": "#4F46E5", "type": "color" }
+  }
+}
