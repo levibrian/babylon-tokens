@@ -1,6 +1,6 @@
 {
   "color": {
-    "accent": { "value": "#7B2FBE", "type": "color", "comment": "Brand purple — identical in both modes, passes WCAG AA on black and white" },
+    "accent":       { "value": "#7C3AED", "type": "color", "comment": "Brand purple — interactive only, never decorative. Identical in both modes." },
     "accent-hover": { "value": "#9D4EDD", "type": "color" }
   }
 }

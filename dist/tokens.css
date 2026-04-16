@@ -48,21 +48,21 @@
  */
 
 :root {
-  --color-accent: #7b2fbe; /** Brand purple — identical in both modes, passes WCAG AA on black and white */
+  --color-accent: #7c3aed; /** Brand purple — interactive only, never decorative. Identical in both modes. */
   --color-accent-hover: #9d4edd;
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', 'Courier New', monospace;
-  --font-size-display-1: 40px;
-  --font-size-display-2: 28px;
-  --font-size-heading-1: 22px;
-  --font-size-heading-2: 18px;
-  --font-size-heading-3: 15px;
-  --font-size-body-lg: 15px;
-  --font-size-body: 13px;
+  --font-size-display-1: 64px; /** Declaration scale — bebabylon.com hero, onboarding. Never used in operational app UI. */
+  --font-size-display-2: 44px;
+  --font-size-heading-1: 26px;
+  --font-size-heading-2: 20px;
+  --font-size-heading-3: 16px;
+  --font-size-body-lg: 16px;
+  --font-size-body: 14px;
   --font-size-body-sm: 12px;
   --font-size-label: 11px;
-  --font-size-label-ui: 12px;
   --font-size-caption: 11px;
+  --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
@@ -72,7 +72,8 @@
   --letter-spacing-heading-1: -0.025em;
   --letter-spacing-heading-2: -0.02em;
   --letter-spacing-heading-3: -0.01em;
-  --letter-spacing-label: 0.1em;
+  --letter-spacing-wordmark: 0.22em; /** Inter 300 wordmark only */
+  --letter-spacing-label: 0em; /** Labels are sentence case, no tracking */
   --line-height-display: 1.05;
   --line-height-heading: 1.2;
   --line-height-body: 1.55;
@@ -86,13 +87,21 @@
   --space-8: 32px;
   --space-12: 48px;
   --space-16: 64px;
+  --space-20: 80px; /** Section gap */
+  --space-24: 96px; /** Section padding */
+  --space-32: 128px; /** Hero breathing room */
+  --space-40: 160px; /** Maximum section padding */
   --radius-xs: 2px;
   --radius-sm: 4px;
   --radius-md: 6px;
   --radius-lg: 10px;
   --radius-full: 9999px;
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
-  --shadow-card: 0 4px 16px rgba(0,0,0,0.5);
+  --shadow-elevated: 0 4px 16px rgba(0,0,0,0.5);
   --shadow-modal: 0 8px 32px rgba(0,0,0,0.6);
-  --shadow-focus: 0 0 0 1.5px #7B2FBE;
+  --shadow-focus: 0 0 0 1.5px #7C3AED;
+  --duration-fast: 200ms; /** All transitions — the only permitted duration */
+  --duration-base: 400ms; /** Skeleton fade-in, modal fade-in */
+  --duration-instant: 0ms; /** Hover states snap immediately — no transition */
+  --easing-out: cubic-bezier(0.16, 1, 0.3, 1); /** Ease-out for all transitions — fast start, settles gently */
 }

@@ -9,6 +9,7 @@ const sharedSd = new StyleDictionary({
     'tokens/spacing.json',
     'tokens/radii.json',
     'tokens/shadows.json',
+    'tokens/motion.json',
   ],
   platforms: {
     css: {
@@ -130,6 +131,10 @@ const tailwindTokens = {
     '8':  '32px',
     '12': '48px',
     '16': '64px',
+    '20': '80px',
+    '24': '96px',
+    '32': '128px',
+    '40': '160px',
   },
   borderRadius: {
     xs:   '2px',
@@ -140,9 +145,9 @@ const tailwindTokens = {
   },
   boxShadow: {
     sm:    '0 1px 3px rgba(0,0,0,0.4)',
-    card:  '0 4px 16px rgba(0,0,0,0.5)',
+    elevated: '0 4px 16px rgba(0,0,0,0.5)',
     modal: '0 8px 32px rgba(0,0,0,0.6)',
-    focus: '0 0 0 1.5px #7B2FBE',
+    focus: '0 0 0 1.5px #7C3AED',
   },
 };
 

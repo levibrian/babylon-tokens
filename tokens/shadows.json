@@ -1,8 +1,8 @@
 {
   "shadow": {
     "sm":    { "value": "0 1px 3px rgba(0,0,0,0.4)",  "type": "shadow" },
-    "card":  { "value": "0 4px 16px rgba(0,0,0,0.5)", "type": "shadow" },
+    "elevated": { "value": "0 4px 16px rgba(0,0,0,0.5)", "type": "shadow" },
     "modal": { "value": "0 8px 32px rgba(0,0,0,0.6)", "type": "shadow" },
-    "focus": { "value": "0 0 0 1.5px #7B2FBE",        "type": "shadow" }
+    "focus": { "value": "0 0 0 1.5px #7C3AED",        "type": "shadow" }
   }
 }
